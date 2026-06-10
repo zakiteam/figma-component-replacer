@@ -8,10 +8,8 @@
 
 ## Features
 
+- Vite
 - Vue 3
-- Storybook 8
-- Tailwind CSS 3
-- SCSS
 
 ## Requirements
 
