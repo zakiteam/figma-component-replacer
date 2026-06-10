@@ -1,6 +1,6 @@
 export default {
   en: {
-    zcr_app_title: "Z Component Replacer",
+    zcr_app_title: "Figma Component Replacer",
     zcr_auto_match: "Auto match",
     zcr_scan: "Scan",
     zcr_close: "Close",
