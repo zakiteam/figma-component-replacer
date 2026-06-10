@@ -1,0 +1,97 @@
+.c-orphan-detail {
+  min-height: 0;
+  padding: var(--zcr-space-5);
+  overflow: auto;
+}
+
+.c-orphan-detail__empty {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  min-height: var(--zcr-empty-min-height);
+  color: var(--zcr-color-muted);
+  text-align: center;
+}
+
+.c-orphan-detail__panel {
+  max-width: var(--zcr-detail-max-width);
+}
+
+.c-orphan-detail__title {
+  margin: 0;
+  font-size: var(--zcr-font-size-detail-title);
+  font-weight: var(--zcr-font-weight-strong);
+}
+
+.c-orphan-detail__grid {
+  display: grid;
+  grid-template-columns: var(--zcr-detail-label-width) 1fr;
+  gap: var(--zcr-space-2) var(--zcr-space-4);
+  margin: var(--zcr-space-5) 0;
+}
+
+.c-orphan-detail__label {
+  color: var(--zcr-color-muted);
+}
+
+.c-orphan-detail__path {
+  overflow-wrap: anywhere;
+}
+
+.c-orphan-detail__replacement {
+  display: grid;
+  gap: var(--zcr-space-2);
+  margin-top: var(--zcr-space-1);
+}
+
+.c-orphan-detail__input,
+.c-orphan-detail__select {
+  width: 100%;
+  min-height: var(--zcr-control-height);
+  padding: var(--zcr-control-padding-y) var(--zcr-control-padding-x);
+  color: var(--zcr-color-text);
+  background: var(--zcr-color-panel);
+  border: var(--zcr-border-width) solid var(--zcr-color-border);
+  border-radius: var(--zcr-radius-control);
+}
+
+.c-orphan-detail__warning {
+  margin-top: var(--zcr-space-3);
+  color: var(--zcr-color-danger);
+}
+
+.c-orphan-detail__actions {
+  display: flex;
+  gap: var(--zcr-space-2);
+  margin-top: var(--zcr-space-4);
+}
+
+.c-orphan-detail__button {
+  min-height: var(--zcr-control-height);
+  padding: var(--zcr-button-padding-y) var(--zcr-button-padding-x);
+  border-radius: var(--zcr-radius-control);
+  border: var(--zcr-border-width) solid transparent;
+  cursor: pointer;
+}
+
+.c-orphan-detail__button--primary {
+  color: var(--zcr-color-brand-text);
+  background: var(--zcr-color-brand);
+}
+
+.c-orphan-detail__button--secondary {
+  color: var(--zcr-color-text);
+  background: var(--zcr-color-panel);
+  border-color: var(--zcr-color-border);
+}
+
+.c-orphan-detail__button--primary:disabled {
+  opacity: var(--zcr-disabled-opacity);
+  cursor: not-allowed;
+}
+
+.c-orphan-detail__note {
+  display: block;
+  margin-top: var(--zcr-space-1);
+  color: var(--zcr-color-muted);
+}

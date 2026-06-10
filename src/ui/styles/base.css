@@ -1,0 +1,61 @@
+:root {
+  color-scheme: light dark;
+  --zcr-color-bg: var(--figma-color-bg);
+  --zcr-color-panel: var(--figma-color-bg-secondary);
+  --zcr-color-panel-hover: var(--figma-color-bg-secondary);
+  --zcr-color-text: var(--figma-color-text);
+  --zcr-color-muted: var(--figma-color-text-secondary);
+  --zcr-color-border: var(--figma-color-border);
+  --zcr-color-brand: var(--figma-color-bg-brand);
+  --zcr-color-brand-text: var(--figma-color-text-onbrand);
+  --zcr-color-danger: var(--figma-color-text-danger);
+  --zcr-space-1: 4px;
+  --zcr-space-2: 8px;
+  --zcr-space-3: 12px;
+  --zcr-space-4: 16px;
+  --zcr-space-5: 18px;
+  --zcr-border-width: 1px;
+  --zcr-radius-control: 6px;
+  --zcr-radius-pill: 999px;
+  --zcr-control-height: 32px;
+  --zcr-control-padding-x: 8px;
+  --zcr-control-padding-y: 6px;
+  --zcr-button-padding-x: 12px;
+  --zcr-button-padding-y: 7px;
+  --zcr-status-padding-x: 6px;
+  --zcr-status-padding-y: 2px;
+  --zcr-badge-min-width: 24px;
+  --zcr-badge-padding-x: 7px;
+  --zcr-badge-padding-y: 1px;
+  --zcr-sidebar-min-width: 300px;
+  --zcr-sidebar-max-width: 380px;
+  --zcr-detail-max-width: 640px;
+  --zcr-detail-label-width: 120px;
+  --zcr-empty-min-height: 320px;
+  --zcr-loader-size: 20px;
+  --zcr-loader-border-width: 2px;
+  --zcr-loader-overlay-z-index: 10;
+  --zcr-font-size-small: 11px;
+  --zcr-font-size-status: 10px;
+  --zcr-font-size-title: 14px;
+  --zcr-font-size-detail-title: 18px;
+  --zcr-font-weight-strong: 650;
+  --zcr-disabled-opacity: 0.45;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--zcr-color-bg);
+  color: var(--zcr-color-text);
+  font: 12px/1.45 Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+button,
+select,
+input {
+  font: inherit;
+}

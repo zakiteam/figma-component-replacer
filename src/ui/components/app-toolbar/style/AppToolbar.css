@@ -1,0 +1,34 @@
+.c-app-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--zcr-space-4);
+  padding: var(--zcr-space-3) var(--zcr-space-4);
+  border-bottom: var(--zcr-border-width) solid var(--zcr-color-border);
+}
+
+.c-app-toolbar__title {
+  margin: 0;
+  font-size: var(--zcr-font-size-title);
+  font-weight: var(--zcr-font-weight-strong);
+}
+
+.c-app-toolbar__actions {
+  display: flex;
+  align-items: center;
+  gap: var(--zcr-space-2);
+}
+
+.c-app-toolbar__button {
+  min-height: var(--zcr-control-height);
+  padding: var(--zcr-button-padding-y) var(--zcr-button-padding-x);
+  color: var(--zcr-color-text);
+  background: var(--zcr-color-panel);
+  border: var(--zcr-border-width) solid var(--zcr-color-border);
+  border-radius: var(--zcr-radius-control);
+  cursor: pointer;
+}
+
+.c-app-toolbar__button:hover {
+  background: var(--zcr-color-panel-hover);
+}

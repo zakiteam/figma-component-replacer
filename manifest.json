@@ -1,0 +1,8 @@
+{
+  "name": "Figma component replacer",
+  "id": "figma-component-replacer",
+  "api": "1.0.0",
+  "main": "dist/boot.js",
+  "ui": "dist/index.html",
+  "editorType": ["figma"]
+}
