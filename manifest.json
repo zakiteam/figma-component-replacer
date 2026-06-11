@@ -1,6 +1,8 @@
 {
   "name": "Figma component replacer",
-  "id": "figma-component-replacer",
+  "id": "1646582566086390020",
+  "networkAccess": { "allowedDomains" : [ "none" ]},
+  "documentAccess": "dynamic-page",
   "api": "1.0.0",
   "main": "dist/boot.js",
   "ui": "dist/index.html",
